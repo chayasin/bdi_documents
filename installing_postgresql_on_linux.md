@@ -30,4 +30,8 @@ Check status
 sudo service postgresql status 
 ```
 
-test
+### Connect to the instance
+
+```sh
+sudo -u postgres psql
+```
